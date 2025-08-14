@@ -13,7 +13,8 @@ export async function Navbar() {
   const user = await getUser();
 
   return (
-    <nav className="py-5 flex items-center justify-between">
+    // <nav className="py-5 flex items-center justify-between">
+    <nav className="p-4 mb-4 flex items-center justify-between sticky top-0 z-50 bg-background/50 backdrop-blur-md border-b border-border/50 ">
       <div className="flex items-center gap-6">
         <Link href="/">
           <h1 className="text-3xl font-semibold">
